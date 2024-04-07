@@ -1,0 +1,19 @@
+<meta charset="UTF-8">
+<script>
+	var numeros = (lines.shift());
+	var [A, B, C] = numeros.split(" ").map((x) => parseInt(x));
+	if (A > B) {
+		if (A > C) {
+			console.log(A +' eh o maior');
+		}	else {
+			console.log(C +' eh o maior');
+		}
+	} else {
+		if (B > C) {
+			console.log(B +' eh o maior');
+	}   else {
+			console.log(C +' eh o maior');
+		}
+	}
+    ///console.log(Math.max(A, B, C))
+</script>

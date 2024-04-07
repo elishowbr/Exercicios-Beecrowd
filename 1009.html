@@ -1,0 +1,9 @@
+<meta charset="UTF-8">
+<script>
+    var dados = (lines.shift());
+    var [A1, B1, C1] = dados.split(' ').map((x) => parseFloat(x));
+    var dados = (lines.shift());
+    var [A2, B2, C2] = dados.split(' ').map((x) => parseFloat(x));
+    var total = B1 * C1 + B2 * C2;
+    console.log('VALOR A PAGAR: R$ '+ (total).toFixed(2));
+</script>
